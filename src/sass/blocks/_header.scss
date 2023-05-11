@@ -3,14 +3,14 @@
     justify-content: space-between;
     align-items: center;
     &__logo {
-        width: 250px;
+        width: 240px;
         img {
             width: 100%;
         }
     }
     &__official {
-        color: #ffffff;
-        font-size: 12px;
+        color: #fff;
+        font-size: 13px;
         font-weight: 400;
         text-align: center;
         span {
@@ -20,12 +20,12 @@
     }
     &__phone {
         display: block;
-        color: white;
+        color: #fff;
         font-size: 18px;
         font-weight: 700;
         text-decoration: none;
         &:hover {
-            color: white;
+            color: $main_color;
         }
     }
     &__contacts {
